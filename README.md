@@ -13,7 +13,7 @@ Build a Simple Calculator User Interface & functionality on REACT framework
 
 - JavaScript, HTML, SCSS
 - [REACT](https://reactjs.org/)
-- [Bootstrap](ttps://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 
 ## Getting Started

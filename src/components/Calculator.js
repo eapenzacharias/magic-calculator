@@ -18,20 +18,22 @@ const Calculator = () => {
   };
 
   return (
-    <div className="container main">
-      <Display value={state.next || state.total || '0'} />
-      <div className="button-panel">
-        <RenderCol clickHandler={handleClick} btn0="AC" btn1="+/-" btn2="%" btn3="÷" />
-        <RenderCol clickHandler={handleClick} btn0="7" btn1="8" btn2="9" btn3="x" />
-        <RenderCol clickHandler={handleClick} btn0="4" btn1="5" btn2="6" btn3="-" />
-        <RenderCol clickHandler={handleClick} btn0="1" btn1="2" btn2="3" btn3="+" />
-        <div className="btn-col">
-          <Button clickHandler={handleClick} buttonName="0" wide="wide" color="grey" />
-          <Button clickHandler={handleClick} buttonName="." color="grey" />
-          <Button clickHandler={handleClick} buttonName="=" />
+    <>
+      <div className="calculator">
+        <Display value={state.next || state.total || '0'} />
+        <div className="button-panel">
+          <RenderCol clickHandler={handleClick} btn0="AC" btn1="+/-" btn2="%" btn3="÷" />
+          <RenderCol clickHandler={handleClick} btn0="7" btn1="8" btn2="9" btn3="x" />
+          <RenderCol clickHandler={handleClick} btn0="4" btn1="5" btn2="6" btn3="-" />
+          <RenderCol clickHandler={handleClick} btn0="1" btn1="2" btn2="3" btn3="+" />
+          <div className="btn-col">
+            <Button clickHandler={handleClick} buttonName="0" wide="wide" color="grey" />
+            <Button clickHandler={handleClick} buttonName="." color="grey" />
+            <Button clickHandler={handleClick} buttonName="=" />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

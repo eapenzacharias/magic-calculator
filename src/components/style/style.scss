@@ -1,21 +1,121 @@
 html {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: 10px;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  font-size: 12px;
 
   body {
-    font-size: 2rem;
-    margin: 10rem auto;
-    width: 700px;
+    font-size: 1rem;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0 auto;
+    color: #444;
+    background: #fff;
+    height: 100vh;
+    line-height: 1.4;
+
+    nav {
+      overflow: hidden;
+      background-color: #333;
+      top: 0;
+      width: 100%;
+      margin-bottom: 4rem;
+
+      ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 15px;
+
+        li {
+          display: inline;
+          font-family: "Fira Sans", sans-serif;
+          font-size: 17px;
+
+          a {
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 14px;
+
+            &:hover {
+              background-color: #111;
+            }
+          }
+
+          .active-link {
+            color: orangered;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
 
     .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      max-width: 1000px;
+      margin: 1.5rem auto 0 auto;
+      overflow-y: auto;
+
+      h1 {
+        font-size: 5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        line-height: 1em;
+        color: #9c9c9c;
+        text-transform: lowercase;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+        line-height: 1em;
+        color: #5a5a5a;
+        text-align: center;
+      }
+
+      .row {
+        align-content: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+      }
+
+      .col {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .home {
+        padding: 0 1.5rem;
+      }
+
+      @media screen and (min-width: 992px) {
+        .col-4 {
+          width: 40%;
+        }
+
+        .col-6 {
+          width: 60%;
+        }
+      }
+
+      @media screen and (max-width: 991.99px) {
+        .col-4,
+        .col-6 {
+          width: 100%;
+        }
+      }
+    }
+
+    .calculator {
       box-shadow: 0 0 20px -3px #000;
       display: flex;
       flex-direction: column;
-      max-width: 700px;
+      max-width: 600px;
       min-width: 370px;
 
       .display {
@@ -66,6 +166,86 @@ html {
             background-color: #e68535;
           }
         }
+      }
+    }
+
+    .carousel {
+      align-items: center;
+      display: grid;
+      justify-content: center;
+      margin: 0 auto;
+      font-size: 18px;
+
+      .carousel__list {
+        align-items: center;
+        display: grid;
+        grid-row-gap: 1.25rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        max-width: 45rem;
+        min-width: 300px;
+        overflow: hidden;
+        padding: 1rem 2rem;
+        list-style-type: none;
+      }
+
+      .carousel__item {
+        grid-column: 1;
+        grid-row: 1;
+        line-height: 1.2;
+        text-align: center;
+        transition: transform 0.2s;
+      }
+
+      .carousel__item.active {
+        transform: translateX(0);
+      }
+
+      .carousel__item.left {
+        transform: translateX(-110%);
+      }
+
+      .carousel__item.right {
+        transform: translateX(110%);
+      }
+
+      .carousel__indicator {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row: 2;
+        justify-self: center;
+      }
+
+      .carousel__dot {
+        background-color: white;
+        border-radius: 50%;
+        border: 0.0625rem solid #696a6b;
+        display: block;
+        height: 0.5rem;
+        width: 0.5rem;
+      }
+
+      .carousel__dot.active {
+        background-color: #696a6b;
+      }
+
+      .carousel__citation {
+        display: block;
+        font-size: 0.875rem;
+        font-style: normal;
+        margin-bottom: 1.25rem;
+      }
+
+      .carousel__name {
+        display: block;
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      .carousel__quote {
+        font-style: italic;
+        line-height: 1.5;
       }
     }
   }

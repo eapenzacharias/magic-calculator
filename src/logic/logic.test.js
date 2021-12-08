@@ -1,4 +1,5 @@
 import calculate from './calculate';
+import operate from './operate';
 
 describe('AC button should clear the object passed', () => {
   const object = {
@@ -22,7 +23,7 @@ describe('Any number button should append the number to next', () => {
   });
 });
 
-describe('Any number button should append the number to next', () => {
+describe('Adding operation', () => {
   const object = {
     total: null,
     next: '15',
@@ -32,3 +33,28 @@ describe('Any number button should append the number to next', () => {
     expect(calculate(object, '+')).toEqual({ total: '15', next: null, operation: '+' });
   });
 });
+
+
+describe('Testing operations', () => {
+  test('Multplication', () => {
+    expect(operate(3, 2, 'x')).toEqual('6')
+  })
+  test('Division', () => {
+    expect(operate(3, 3, '÷')).toEqual('1')
+  })
+  test('Division by 0', () => {
+    expect(operate(3, 0, '÷')).toEqual('Can\'t divide by 0.')
+  })
+  test('Addition', () => {
+    expect(operate(3, 2, '+')).toEqual('5')
+  })
+  test('Subtraction', () => {
+    expect(operate(3, 2, '-')).toEqual('1')
+  })
+  test('Modulus', () => {
+    expect(operate(3, 2, '%')).toEqual('1')
+  })
+  test('Modulus', () => {
+    expect(operate(3, 3, '%')).toEqual('0')
+  })
+})

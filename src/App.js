@@ -1,5 +1,6 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import { HashRouter as Router } from 'react-router-dom';
+import AppContainer from './components/App';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +11,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Calculator />
+        <Router>
+          <AppContainer />
+        </Router>
       </div>
     );
   }

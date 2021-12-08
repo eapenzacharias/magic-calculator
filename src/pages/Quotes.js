@@ -24,34 +24,34 @@ const Quotes = () => {
 
   const reviews = [
     {
-      name: 'Jonathan D.',
-      citation: 'Sale Closed in 2019',
+      name: 'Katherine Johnson',
+      citation: 'African-American mathematician',
       quote:
-        "Door.com has been great. I feel like I got to work with a specialist at each point in the process. Everyone was very professional and very helpful. Plus, I'm amazed at the flat-fee for the sale! Great way to save at closing. Door.com has been great. I feel like I got to work with a specialist at each point in the process. Everyone was very professional and very helpful. Plus, I'm amazed at the flat-fee for the sale! Great way to save at closing.",
+        'We will always have STEM with us. Some things will drop out of the public eye and go away, but there will always be science, engineering, and technology. And there will always, always be mathematics.',
     },
     {
-      name: 'Peter C.',
-      citation: 'Sale Closed in 2019',
+      name: 'Richard Courant',
+      citation: 'German-American mathematician',
       quote:
-        'I have bought and sold ten homes. This has been the most rewarding experience of them all. True professionalism and insight as well as great customer service makes me a believer in the Door.com business model.',
+        'Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality.',
     },
     {
-      name: 'Paulette H.',
-      citation: 'Sale Closed in 2019',
+      name: 'Marston Morse',
+      citation: 'American mathematician',
       quote:
-        'The entire experience from onboarding to the sale of our home has been professional, expedited quickly, and I saved close to $14,000 in commissions. I will absolutely be using Door.com for the sale of my next property.',
+        'Mathematics are the result of mysterious powers which no one understands, and which the unconscious recognition of beauty must play an important part. Out of an infinity of designs a mathematician chooses one pattern for beauty’s sake and pulls it down to earth.',
     },
     {
-      name: 'Ryan W.',
-      citation: 'Sale Closed in 2019',
+      name: 'Shakuntala Devi',
+      citation: 'Indian writer and mental calculator',
       quote:
-        'Service was excellent EVERY step of the process! No way to tell that Door.com provided a flat rate service by the way that they treated us and handled every step of the transactions.',
+        'Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.',
     },
     {
-      name: 'Kevin R.',
-      citation: 'Sale Closed in 2019',
+      name: 'John von Neumann',
+      citation: 'Hungarian mathematician',
       quote:
-        'Everyone we worked with was very responsive, professional and easy to work with. A great experience all around. I work in this industry too so my expectations are high. Great work by all.',
+        'If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.',
     },
   ];
 

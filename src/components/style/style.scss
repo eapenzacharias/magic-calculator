@@ -56,6 +56,7 @@ html {
       max-width: 1000px;
       margin: 1.5rem auto 0 auto;
       overflow-y: auto;
+
       h1 {
         font-size: 5rem;
         font-weight: 600;
@@ -65,6 +66,7 @@ html {
         text-transform: lowercase;
         text-align: center;
       }
+
       h2 {
         font-size: 3rem;
         font-weight: 400;
@@ -73,6 +75,7 @@ html {
         color: #5a5a5a;
         text-align: center;
       }
+
       .row {
         align-content: center;
         display: inline-flex;
@@ -94,10 +97,12 @@ html {
         .col-4 {
           width: 40%;
         }
+
         .col-6 {
           width: 60%;
         }
       }
+
       @media screen and (max-width: 991.99px) {
         .col-4,
         .col-6 {
@@ -163,6 +168,7 @@ html {
         }
       }
     }
+
     .carousel {
       align-items: center;
       display: grid;
@@ -182,6 +188,7 @@ html {
         padding: 1rem 2rem;
         list-style-type: none;
       }
+
       .carousel__item {
         grid-column: 1;
         grid-row: 1;
@@ -189,15 +196,19 @@ html {
         text-align: center;
         transition: transform 0.2s;
       }
+
       .carousel__item.active {
         transform: translateX(0);
       }
+
       .carousel__item.left {
         transform: translateX(-110%);
       }
+
       .carousel__item.right {
         transform: translateX(110%);
       }
+
       .carousel__indicator {
         display: grid;
         grid-gap: 1rem;
@@ -205,6 +216,7 @@ html {
         grid-row: 2;
         justify-self: center;
       }
+
       .carousel__dot {
         background-color: white;
         border-radius: 50%;
@@ -213,20 +225,24 @@ html {
         height: 0.5rem;
         width: 0.5rem;
       }
+
       .carousel__dot.active {
         background-color: #696a6b;
       }
+
       .carousel__citation {
         display: block;
         font-size: 0.875rem;
         font-style: normal;
         margin-bottom: 1.25rem;
       }
+
       .carousel__name {
         display: block;
         font-style: normal;
         font-weight: 600;
       }
+
       .carousel__quote {
         font-style: italic;
         line-height: 1.5;

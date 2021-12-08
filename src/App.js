@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Router basename={process.env.PUBLIC_UR} L>
+        <Router>
           <AppContainer />
         </Router>
       </div>

@@ -40,7 +40,7 @@ const Home = () => {
     const { title, subHeading, description } = homeData;
     return (
       <>
-        <div className="col">
+        <div className="col home">
           <h1>{title}</h1>
           <h2>{subHeading}</h2>
           <div>{description}</div>

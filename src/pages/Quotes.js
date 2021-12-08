@@ -56,52 +56,54 @@ const Quotes = () => {
   ];
 
   return (
-    <div className="carousel">
-      <ul className="carousel__list">
-        {reviews.map((review, index) => {
-          const { citation, name, quote } = review;
-          const count = index + 1;
-          return (
-            <li
-              className={`carousel__item
+    <div className="row">
+      <div className="carousel">
+        <ul className="carousel__list">
+          {reviews.map((review, index) => {
+            const { citation, name, quote } = review;
+            const count = index + 1;
+            return (
+              <li
+                className={`carousel__item
                 ${count === activeSlide ? ' active' : ''}
                 ${count < activeSlide ? ' left' : ''}
                 ${count > activeSlide ? ' right' : ''}
               `}
-              key={count}
-            >
-              <blockquote className="carousel__quote">
-                <cite>
-                  <span className="carousel__name">{name}</span>
-                  <span className="carousel__citation">{citation}</span>
-                </cite>
-                <p>
-                  &quot;
-                  {quote}
-                  &quot;
-                </p>
-              </blockquote>
-            </li>
-          );
-        })}
-        <li className="carousel__indicator">
-          <span
-            className={`carousel__dot${activeSlide === 1 ? ' active' : ''}`}
-          />
-          <span
-            className={`carousel__dot${activeSlide === 2 ? ' active' : ''}`}
-          />
-          <span
-            className={`carousel__dot${activeSlide === 3 ? ' active' : ''}`}
-          />
-          <span
-            className={`carousel__dot${activeSlide === 4 ? ' active' : ''}`}
-          />
-          <span
-            className={`carousel__dot${activeSlide === 5 ? ' active' : ''}`}
-          />
-        </li>
-      </ul>
+                key={count}
+              >
+                <blockquote className="carousel__quote">
+                  <cite>
+                    <span className="carousel__name">{name}</span>
+                    <span className="carousel__citation">{citation}</span>
+                  </cite>
+                  <p>
+                    &quot;
+                    {quote}
+                    &quot;
+                  </p>
+                </blockquote>
+              </li>
+            );
+          })}
+          <li className="carousel__indicator">
+            <span
+              className={`carousel__dot${activeSlide === 1 ? ' active' : ''}`}
+            />
+            <span
+              className={`carousel__dot${activeSlide === 2 ? ' active' : ''}`}
+            />
+            <span
+              className={`carousel__dot${activeSlide === 3 ? ' active' : ''}`}
+            />
+            <span
+              className={`carousel__dot${activeSlide === 4 ? ' active' : ''}`}
+            />
+            <span
+              className={`carousel__dot${activeSlide === 5 ? ' active' : ''}`}
+            />
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

@@ -1,13 +1,17 @@
+[![Linters](https://github.com/eapenzacharias/magic-calculator/actions/workflows/linters.yml/badge.svg)](https://github.com/eapenzacharias/magic-calculator/actions/workflows/linters.yml) 
 
 # Magic-Calculator
 
 > Simple Calculator on REACT
 
 Build a Simple Calculator User Interface & functionality on REACT framework
+![Screenshot 2021-09-171](https://user-images.githubusercontent.com/49812651/145246596-05d9d231-8499-452a-9757-77af18d6574e.png)
+![Screenshot 2021-09-172](https://user-images.githubusercontent.com/49812651/145246609-09889e89-d3a1-437d-b919-2712042ed9bd.png)
+![Screenshot 2021-09-173](https://user-images.githubusercontent.com/49812651/145246617-10f3fe31-785a-4b5a-8ce2-13e8603b3d92.png)
 
 
 
-### [Live Project](#)
+### [Live Project](https://eapenzacharias.github.io/magic-calculator/)
 
 ## Built With
 

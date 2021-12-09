@@ -2,7 +2,7 @@ import { MemoryRouter } from 'react-router';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
-import AppContainer from './App';
+import AppContainer from '../components/App';
 
 describe('All pages open on nav link click', () => {
   it('Homepage opens on \'Home\' button', () => {

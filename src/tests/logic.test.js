@@ -1,5 +1,5 @@
-import calculate from './calculate';
-import operate from './operate';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 describe('AC button should clear the object passed', () => {
   const object = {

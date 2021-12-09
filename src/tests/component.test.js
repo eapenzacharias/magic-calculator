@@ -14,17 +14,17 @@ describe('Component snapshots should match', () => {
   });
 
   it('Homepage should render', () => {
-    const render = TestRenderer.create(<Router><Home /></Router>).toJSON();
+    const render = TestRenderer.create(<Home />).toJSON();
     expect(render).toMatchSnapshot();
   });
 
   it('Calculator should render', () => {
-    const render = TestRenderer.create(<Router><Calculator /></Router>).toJSON();
+    const render = TestRenderer.create(<Calculator />).toJSON();
     expect(render).toMatchSnapshot();
   });
 
   it('Quotes should render', () => {
-    const render = TestRenderer.create(<Router><Quotes /></Router>).toJSON();
+    const render = TestRenderer.create(<Quotes />).toJSON();
     expect(render).toMatchSnapshot();
   });
 });

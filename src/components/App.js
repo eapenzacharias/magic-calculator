@@ -22,7 +22,7 @@ const AppContainer = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container" data-testid="main">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<CalcContainer />} />

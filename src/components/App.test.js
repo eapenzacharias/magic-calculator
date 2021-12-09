@@ -24,4 +24,14 @@ describe('All pages open on nav link click', () => {
     userEvent.click(screen.getByText('Calculator'));
     expect(screen.getByText('Let\'s do some math!')).toBeInTheDocument();
   });
+
+  it('Quotes Page opens on \'Quotes\' button', () => {
+    render(
+      <MemoryRouter>
+        <AppContainer />
+      </MemoryRouter>,
+    );
+    userEvent.click(screen.getByText('Quotes'));
+    expect(screen.getByText('Katherine Johnson')).toBeInTheDocument();
+  });
 });

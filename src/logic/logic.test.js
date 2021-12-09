@@ -34,27 +34,26 @@ describe('Adding operation', () => {
   });
 });
 
-
 describe('Testing operations', () => {
   test('Multplication', () => {
-    expect(operate(3, 2, 'x')).toEqual('6')
-  })
+    expect(operate(3, 2, 'x')).toEqual('6');
+  });
   test('Division', () => {
-    expect(operate(3, 3, '÷')).toEqual('1')
-  })
+    expect(operate(3, 3, '÷')).toEqual('1');
+  });
   test('Division by 0', () => {
-    expect(operate(3, 0, '÷')).toEqual('Can\'t divide by 0.')
-  })
+    expect(operate(3, 0, '÷')).toEqual('Can\'t divide by 0.');
+  });
   test('Addition', () => {
-    expect(operate(3, 2, '+')).toEqual('5')
-  })
+    expect(operate(3, 2, '+')).toEqual('5');
+  });
   test('Subtraction', () => {
-    expect(operate(3, 2, '-')).toEqual('1')
-  })
+    expect(operate(3, 2, '-')).toEqual('1');
+  });
   test('Modulus', () => {
-    expect(operate(3, 2, '%')).toEqual('1')
-  })
+    expect(operate(3, 2, '%')).toEqual('1');
+  });
   test('Modulus', () => {
-    expect(operate(3, 3, '%')).toEqual('0')
-  })
-})
+    expect(operate(3, 3, '%')).toEqual('0');
+  });
+});

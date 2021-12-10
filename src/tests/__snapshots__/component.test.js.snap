@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component snapshots should match Calculator should render 1`] = `
+<div
+  className="calculator"
+>
+  <div
+    className="display"
+  >
+    0
+  </div>
+  <div
+    className="button-panel"
+  >
+    <div
+      className="btn-col"
+    >
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="btn small bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="btn-col"
+    >
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="btn small bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="btn-col"
+    >
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="btn small bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="btn-col"
+    >
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="btn small bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="btn-col"
+    >
+      <button
+        className="btn wide bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn small bg-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="btn small bg-orange"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Component snapshots should match Homepage should render 1`] = `
+<div
+  className="col home"
+>
+  <h1>
+    Math magicians
+  </h1>
+  <h2>
+    Welcome to this page!
+  </h2>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam tellus, lobortis in neque id, consectetur mollis nisi. Integer dictum, augue eget volutpat cursus, tellus arcu semper libero, at eleifend risus magna sed neque. In hac habitasse platea dictumst. Vivamus est risus, auctor pulvinar egestas et, venenatis at lacus. Donec placerat enim luctus, feugiat mauris sit amet, dapibus mi. Aliquam a augue id urna porta tincidunt. Nunc dapibus, eros nec pellentesque tristique, nulla nunc malesuada enim, sed consequat quam lorem nec orci. Ut magna nisl, venenatis feugiat fringilla vel, mattis ac purus. Nam at sem eget augue scelerisque viverra vitae at metus. Vestibulum elit tortor, convallis sed turpis a, feugiat pellentesque urna. Etiam consectetur faucibus tincidunt. Nullam ornare faucibus nibh at sollicitudin. Aliquam tincidunt ligula in orci venenatis, at facilisis urna molestie.
+    </p>
+    <p>
+      Donec placerat enim luctus, feugiat mauris sit amet, dapibus mi. Aliquam a augue id urna porta tincidunt. Nunc dapibus, eros nec pellentesque tristique, nulla nunc malesuada enim, sed consequat quam lorem nec orci. Ut magna nisl, venenatis feugiat fringilla vel, mattis ac purus. Nam at sem eget augue scelerisque viverra vitae at metus. Vestibulum elit tortor, convallis sed turpis a, feugiat pellentesque urna. Etiam consectetur faucibus tincidunt. Nullam ornare faucibus nibh at sollicitudin. Aliquam tincidunt ligula in orci venenatis, at facilisis urna molestie.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Component snapshots should match Nav bar should render 1`] = `
+<nav
+  className="navBar"
+>
+  <ul>
+    <li>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li>
+      <a
+        href="/quotes"
+        onClick={[Function]}
+      >
+        Quotes
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Component snapshots should match Quotes should render 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="carousel"
+  >
+    <ul
+      className="carousel__list"
+    >
+      <li
+        className="carousel__item
+                 active
+                
+                
+              "
+      >
+        <blockquote
+          className="carousel__quote"
+        >
+          <cite>
+            <span
+              className="carousel__name"
+            >
+              Katherine Johnson
+            </span>
+            <span
+              className="carousel__citation"
+            >
+              African-American mathematician
+            </span>
+          </cite>
+          <p>
+            "
+            We will always have STEM with us. Some things will drop out of the public eye and go away, but there will always be science, engineering, and technology. And there will always, always be mathematics.
+            "
+          </p>
+        </blockquote>
+      </li>
+      <li
+        className="carousel__item
+                
+                
+                 right
+              "
+      >
+        <blockquote
+          className="carousel__quote"
+        >
+          <cite>
+            <span
+              className="carousel__name"
+            >
+              Richard Courant
+            </span>
+            <span
+              className="carousel__citation"
+            >
+              German-American mathematician
+            </span>
+          </cite>
+          <p>
+            "
+            Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality.
+            "
+          </p>
+        </blockquote>
+      </li>
+      <li
+        className="carousel__item
+                
+                
+                 right
+              "
+      >
+        <blockquote
+          className="carousel__quote"
+        >
+          <cite>
+            <span
+              className="carousel__name"
+            >
+              Marston Morse
+            </span>
+            <span
+              className="carousel__citation"
+            >
+              American mathematician
+            </span>
+          </cite>
+          <p>
+            "
+            Mathematics are the result of mysterious powers which no one understands, and which the unconscious recognition of beauty must play an important part. Out of an infinity of designs a mathematician chooses one pattern for beauty’s sake and pulls it down to earth.
+            "
+          </p>
+        </blockquote>
+      </li>
+      <li
+        className="carousel__item
+                
+                
+                 right
+              "
+      >
+        <blockquote
+          className="carousel__quote"
+        >
+          <cite>
+            <span
+              className="carousel__name"
+            >
+              Shakuntala Devi
+            </span>
+            <span
+              className="carousel__citation"
+            >
+              Indian writer and mental calculator
+            </span>
+          </cite>
+          <p>
+            "
+            Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.
+            "
+          </p>
+        </blockquote>
+      </li>
+      <li
+        className="carousel__item
+                
+                
+                 right
+              "
+      >
+        <blockquote
+          className="carousel__quote"
+        >
+          <cite>
+            <span
+              className="carousel__name"
+            >
+              John von Neumann
+            </span>
+            <span
+              className="carousel__citation"
+            >
+              Hungarian mathematician
+            </span>
+          </cite>
+          <p>
+            "
+            If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
+            "
+          </p>
+        </blockquote>
+      </li>
+      <li
+        className="carousel__indicator"
+      >
+        <span
+          className="carousel__dot active"
+        />
+        <span
+          className="carousel__dot"
+        />
+        <span
+          className="carousel__dot"
+        />
+        <span
+          className="carousel__dot"
+        />
+        <span
+          className="carousel__dot"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

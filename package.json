@@ -2,7 +2,7 @@
   "name": "magic-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eapenzacharias.github.io/magic-calculator",
+  "homepage": "https://magicmathcal.herokuapp.com/",
   "dependencies": {
     "@testing-library/react": "^11.2.7",
     "big.js": "^6.1.1",

@@ -1,4 +1,4 @@
-[![Linters](https://github.com/eapenzacharias/magic-calculator/actions/workflows/linters.yml/badge.svg)](https://github.com/eapenzacharias/magic-calculator/actions/workflows/linters.yml) 
+[![Linters](https://github.com/eapenzacharias/magic-calculator/actions/workflows/linters.yml/badge.svg)](https://github.com/eapenzacharias/magic-calculator/actions/workflows/linters.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/04ed89d8-c9b3-4b37-9750-c1d548a6d1dc/deploy-status)](https://app.netlify.com/sites/mathmagiccal/deploys) 
 
 # Magic-Calculator
 
@@ -11,7 +11,8 @@ Build a Simple Calculator User Interface & functionality on REACT framework
 
 
 
-### [Live Project](https://eapenzacharias.github.io/magic-calculator/)
+### Live Project
+[GitHub Pages](https://eapenzacharias.github.io/magic-calculator/) | [Heroku](https://magicmathcal.herokuapp.com/) | [Netlify](https://mathmagiccal.netlify.app/)
 
 ## Built With
 
